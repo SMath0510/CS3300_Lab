@@ -1,0 +1,368 @@
+Func Name: MT4_Start
+Num args: 7
+Called ?: true
+Label Map
+: {}
+Blocks: 15
+Block Line: 25
+Succ Block: 26
+Jump Block: -1
+Define: []
+Used: []
+IN: []
+OUT: []
+Block Line: 26
+Succ Block: -1
+Jump Block: -1
+Define: []
+Used: []
+IN: []
+OUT: []
+Block Line: 27
+Succ Block: 28
+Jump Block: -1
+Define: []
+Used: [TEMP 1]
+IN: [TEMP 3, TEMP 2, TEMP 1, TEMP 0, TEMP 6, TEMP 5, TEMP 4]
+OUT: [TEMP 3, TEMP 2, TEMP 1, TEMP 0, TEMP 6, TEMP 5, TEMP 4]
+Block Line: 28
+Succ Block: 29
+Jump Block: -1
+Define: []
+Used: [TEMP 2]
+IN: [TEMP 3, TEMP 2, TEMP 1, TEMP 0, TEMP 6, TEMP 5, TEMP 4]
+OUT: [TEMP 3, TEMP 2, TEMP 1, TEMP 0, TEMP 6, TEMP 5, TEMP 4]
+Block Line: 29
+Succ Block: 30
+Jump Block: -1
+Define: []
+Used: [TEMP 3]
+IN: [TEMP 3, TEMP 2, TEMP 1, TEMP 0, TEMP 6, TEMP 5, TEMP 4]
+OUT: [TEMP 3, TEMP 2, TEMP 1, TEMP 0, TEMP 6, TEMP 5, TEMP 4]
+Block Line: 30
+Succ Block: 31
+Jump Block: -1
+Define: []
+Used: [TEMP 4]
+IN: [TEMP 3, TEMP 2, TEMP 1, TEMP 0, TEMP 6, TEMP 5, TEMP 4]
+OUT: [TEMP 3, TEMP 2, TEMP 1, TEMP 0, TEMP 6, TEMP 5, TEMP 4]
+Block Line: 31
+Succ Block: 32
+Jump Block: -1
+Define: []
+Used: [TEMP 5]
+IN: [TEMP 3, TEMP 2, TEMP 1, TEMP 0, TEMP 6, TEMP 5, TEMP 4]
+OUT: [TEMP 3, TEMP 2, TEMP 1, TEMP 0, TEMP 6, TEMP 5, TEMP 4]
+Block Line: 32
+Succ Block: 33
+Jump Block: -1
+Define: []
+Used: [TEMP 6]
+IN: [TEMP 3, TEMP 2, TEMP 1, TEMP 0, TEMP 6, TEMP 5, TEMP 4]
+OUT: [TEMP 3, TEMP 2, TEMP 1, TEMP 0, TEMP 6, TEMP 5, TEMP 4]
+Block Line: 33
+Succ Block: 34
+Jump Block: -1
+Define: [TEMP 9]
+Used: [TEMP 0]
+IN: [TEMP 3, TEMP 2, TEMP 1, TEMP 0, TEMP 6, TEMP 5, TEMP 4]
+OUT: [TEMP 3, TEMP 2, TEMP 1, TEMP 9, TEMP 6, TEMP 5, TEMP 4]
+Block Line: 34
+Succ Block: 35
+Jump Block: -1
+Define: [TEMP 10]
+Used: [TEMP 9]
+IN: [TEMP 3, TEMP 2, TEMP 1, TEMP 9, TEMP 6, TEMP 5, TEMP 4]
+OUT: [TEMP 3, TEMP 10, TEMP 2, TEMP 1, TEMP 9, TEMP 6, TEMP 5, TEMP 4]
+Block Line: 35
+Succ Block: 36
+Jump Block: -1
+Define: [TEMP 11]
+Used: [TEMP 10]
+IN: [TEMP 3, TEMP 10, TEMP 2, TEMP 1, TEMP 9, TEMP 6, TEMP 5, TEMP 4]
+OUT: [TEMP 3, TEMP 2, TEMP 1, TEMP 11, TEMP 9, TEMP 6, TEMP 5, TEMP 4]
+Block Line: 36
+Succ Block: 37
+Jump Block: -1
+Define: [TEMP 12]
+Used: [TEMP 3, TEMP 2, TEMP 1, TEMP 11, TEMP 9, TEMP 6, TEMP 5, TEMP 4]
+IN: [TEMP 3, TEMP 2, TEMP 1, TEMP 11, TEMP 9, TEMP 6, TEMP 5, TEMP 4]
+OUT: [TEMP 12]
+Block Line: 37
+Succ Block: 38
+Jump Block: -1
+Define: [TEMP 8]
+Used: [TEMP 12]
+IN: [TEMP 12]
+OUT: [TEMP 8]
+Block Line: 38
+Succ Block: -1
+Jump Block: -1
+Define: []
+Used: [TEMP 8]
+IN: [TEMP 8]
+OUT: []
+Block Line: 39
+Succ Block: -1
+Jump Block: -1
+Define: []
+Used: []
+IN: []
+OUT: []
+Func Name: MT4_Change
+Num args: 7
+Called ?: false
+Label Map
+: {}
+Blocks: 11
+Block Line: 40
+Succ Block: 41
+Jump Block: -1
+Define: []
+Used: []
+IN: []
+OUT: []
+Block Line: 41
+Succ Block: -1
+Jump Block: -1
+Define: []
+Used: []
+IN: []
+OUT: []
+Block Line: 42
+Succ Block: 43
+Jump Block: -1
+Define: []
+Used: [TEMP 1]
+IN: [TEMP 3, TEMP 2, TEMP 1, TEMP 6, TEMP 5, TEMP 4]
+OUT: [TEMP 3, TEMP 2, TEMP 6, TEMP 5, TEMP 4]
+Block Line: 43
+Succ Block: 44
+Jump Block: -1
+Define: []
+Used: [TEMP 2]
+IN: [TEMP 3, TEMP 2, TEMP 6, TEMP 5, TEMP 4]
+OUT: [TEMP 3, TEMP 6, TEMP 5, TEMP 4]
+Block Line: 44
+Succ Block: 45
+Jump Block: -1
+Define: []
+Used: [TEMP 3]
+IN: [TEMP 3, TEMP 6, TEMP 5, TEMP 4]
+OUT: [TEMP 6, TEMP 5, TEMP 4]
+Block Line: 45
+Succ Block: 46
+Jump Block: -1
+Define: []
+Used: [TEMP 4]
+IN: [TEMP 6, TEMP 5, TEMP 4]
+OUT: [TEMP 6, TEMP 5]
+Block Line: 46
+Succ Block: 47
+Jump Block: -1
+Define: []
+Used: [TEMP 5]
+IN: [TEMP 6, TEMP 5]
+OUT: [TEMP 6]
+Block Line: 47
+Succ Block: 48
+Jump Block: -1
+Define: []
+Used: [TEMP 6]
+IN: [TEMP 6]
+OUT: []
+Block Line: 48
+Succ Block: 49
+Jump Block: -1
+Define: [TEMP 8]
+Used: []
+IN: []
+OUT: [TEMP 8]
+Block Line: 49
+Succ Block: -1
+Jump Block: -1
+Define: []
+Used: [TEMP 8]
+IN: [TEMP 8]
+OUT: []
+Block Line: 50
+Succ Block: -1
+Jump Block: -1
+Define: []
+Used: []
+IN: []
+OUT: []
+Func Name: MAIN
+Num args: 0
+Called ?: true
+Label Map
+: {}
+Blocks: 24
+Block Line: 1
+Succ Block: 2
+Jump Block: -1
+Define: []
+Used: []
+IN: []
+OUT: []
+Block Line: 2
+Succ Block: 3
+Jump Block: -1
+Define: [TEMP 2]
+Used: []
+IN: []
+OUT: [TEMP 2]
+Block Line: 3
+Succ Block: 4
+Jump Block: -1
+Define: [TEMP 3]
+Used: [TEMP 2]
+IN: [TEMP 2]
+OUT: [TEMP 3]
+Block Line: 4
+Succ Block: 5
+Jump Block: -1
+Define: [TEMP 1]
+Used: [TEMP 3]
+IN: [TEMP 3]
+OUT: [TEMP 1]
+Block Line: 5
+Succ Block: 6
+Jump Block: -1
+Define: [TEMP 5]
+Used: []
+IN: [TEMP 1]
+OUT: [TEMP 1, TEMP 5]
+Block Line: 6
+Succ Block: 7
+Jump Block: -1
+Define: [TEMP 6]
+Used: [TEMP 5]
+IN: [TEMP 1, TEMP 5]
+OUT: [TEMP 1, TEMP 6]
+Block Line: 7
+Succ Block: 8
+Jump Block: -1
+Define: [TEMP 4]
+Used: [TEMP 6]
+IN: [TEMP 1, TEMP 6]
+OUT: [TEMP 1, TEMP 4]
+Block Line: 8
+Succ Block: 9
+Jump Block: -1
+Define: [TEMP 7]
+Used: []
+IN: [TEMP 1, TEMP 4]
+OUT: [TEMP 1, TEMP 7, TEMP 4]
+Block Line: 9
+Succ Block: 10
+Jump Block: -1
+Define: []
+Used: [TEMP 1, TEMP 7]
+IN: [TEMP 1, TEMP 7, TEMP 4]
+OUT: [TEMP 1, TEMP 4]
+Block Line: 10
+Succ Block: 11
+Jump Block: -1
+Define: [TEMP 8]
+Used: []
+IN: [TEMP 1, TEMP 4]
+OUT: [TEMP 1, TEMP 8, TEMP 4]
+Block Line: 11
+Succ Block: 12
+Jump Block: -1
+Define: []
+Used: [TEMP 1, TEMP 8]
+IN: [TEMP 1, TEMP 8, TEMP 4]
+OUT: [TEMP 1, TEMP 4]
+Block Line: 12
+Succ Block: 13
+Jump Block: -1
+Define: []
+Used: [TEMP 1, TEMP 4]
+IN: [TEMP 1, TEMP 4]
+OUT: [TEMP 4]
+Block Line: 13
+Succ Block: 14
+Jump Block: -1
+Define: [TEMP 0]
+Used: [TEMP 4]
+IN: [TEMP 4]
+OUT: [TEMP 0]
+Block Line: 14
+Succ Block: 15
+Jump Block: -1
+Define: [TEMP 9]
+Used: [TEMP 0]
+IN: [TEMP 0]
+OUT: [TEMP 0, TEMP 9]
+Block Line: 15
+Succ Block: 16
+Jump Block: -1
+Define: [TEMP 10]
+Used: [TEMP 9]
+IN: [TEMP 0, TEMP 9]
+OUT: [TEMP 10, TEMP 0]
+Block Line: 16
+Succ Block: 17
+Jump Block: -1
+Define: [TEMP 11]
+Used: []
+IN: [TEMP 10, TEMP 0]
+OUT: [TEMP 10, TEMP 0, TEMP 11]
+Block Line: 17
+Succ Block: 18
+Jump Block: -1
+Define: [TEMP 12]
+Used: []
+IN: [TEMP 10, TEMP 0, TEMP 11]
+OUT: [TEMP 10, TEMP 0, TEMP 12, TEMP 11]
+Block Line: 18
+Succ Block: 19
+Jump Block: -1
+Define: [TEMP 13]
+Used: []
+IN: [TEMP 10, TEMP 0, TEMP 12, TEMP 11]
+OUT: [TEMP 10, TEMP 0, TEMP 13, TEMP 12, TEMP 11]
+Block Line: 19
+Succ Block: 20
+Jump Block: -1
+Define: [TEMP 14]
+Used: []
+IN: [TEMP 10, TEMP 0, TEMP 13, TEMP 12, TEMP 11]
+OUT: [TEMP 10, TEMP 0, TEMP 14, TEMP 13, TEMP 12, TEMP 11]
+Block Line: 20
+Succ Block: 21
+Jump Block: -1
+Define: [TEMP 15]
+Used: []
+IN: [TEMP 10, TEMP 0, TEMP 14, TEMP 13, TEMP 12, TEMP 11]
+OUT: [TEMP 10, TEMP 0, TEMP 14, TEMP 13, TEMP 12, TEMP 11, TEMP 15]
+Block Line: 21
+Succ Block: 22
+Jump Block: -1
+Define: [TEMP 16]
+Used: []
+IN: [TEMP 10, TEMP 0, TEMP 14, TEMP 13, TEMP 12, TEMP 11, TEMP 15]
+OUT: [TEMP 10, TEMP 0, TEMP 14, TEMP 13, TEMP 12, TEMP 11, TEMP 16, TEMP 15]
+Block Line: 22
+Succ Block: 23
+Jump Block: -1
+Define: [TEMP 17]
+Used: [TEMP 10, TEMP 0, TEMP 14, TEMP 13, TEMP 12, TEMP 11, TEMP 16, TEMP 15]
+IN: [TEMP 10, TEMP 0, TEMP 14, TEMP 13, TEMP 12, TEMP 11, TEMP 16, TEMP 15]
+OUT: [TEMP 17]
+Block Line: 23
+Succ Block: -1
+Jump Block: -1
+Define: []
+Used: [TEMP 17]
+IN: [TEMP 17]
+OUT: []
+Block Line: 24
+Succ Block: -1
+Jump Block: -1
+Define: []
+Used: []
+IN: []
+OUT: []

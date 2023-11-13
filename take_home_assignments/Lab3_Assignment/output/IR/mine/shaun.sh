@@ -1,0 +1,24 @@
+mkdir priv
+mv priv.test01.microIR priv/test01.microIR
+mv priv.test02.microIR priv/test02.microIR
+mv priv.test03.microIR priv/test03.microIR
+mv priv.test04.microIR priv/test04.microIR
+mv priv.test05.microIR priv/test05.microIR
+mv priv.test06.microIR priv/test06.microIR
+mv priv.test07.microIR priv/test07.microIR
+mv priv.test08.microIR priv/test08.microIR
+mv priv.test09.microIR priv/test09.microIR
+mv priv.test10.microIR priv/test10.microIR
+mv priv.test11.microIR priv/test11.microIR
+mv priv.test12.microIR priv/test12.microIR
+mv priv.test13.microIR priv/test13.microIR
+mv priv.test14.microIR priv/test14.microIR
+mv priv.test15.microIR priv/test15.microIR
+mv priv.test16.microIR priv/test16.microIR
+mv priv.test17.microIR priv/test17.microIR
+mv priv.test18.microIR priv/test18.microIR
+mv priv.test19.microIR priv/test19.microIR
+mv priv.test20.microIR priv/test20.microIR
+mv priv.test21.microIR priv/test21.microIR
+mv priv.test22.microIR priv/test22.microIR
+mv priv.test23.microIR priv/test23.microIR

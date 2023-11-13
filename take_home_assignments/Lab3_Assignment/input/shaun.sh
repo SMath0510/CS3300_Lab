@@ -1,0 +1,24 @@
+mkdir priv
+mv priv.test01.java priv/test01.java
+mv priv.test02.java priv/test02.java
+mv priv.test03.java priv/test03.java
+mv priv.test04.java priv/test04.java
+mv priv.test05.java priv/test05.java
+mv priv.test06.java priv/test06.java
+mv priv.test07.java priv/test07.java
+mv priv.test08.java priv/test08.java
+mv priv.test09.java priv/test09.java
+mv priv.test10.java priv/test10.java
+mv priv.test11.java priv/test11.java
+mv priv.test12.java priv/test12.java
+mv priv.test13.java priv/test13.java
+mv priv.test14.java priv/test14.java
+mv priv.test15.java priv/test15.java
+mv priv.test16.java priv/test16.java
+mv priv.test17.java priv/test17.java
+mv priv.test18.java priv/test18.java
+mv priv.test19.java priv/test19.java
+mv priv.test20.java priv/test20.java
+mv priv.test21.java priv/test21.java
+mv priv.test22.java priv/test22.java
+mv priv.test23.java priv/test23.java

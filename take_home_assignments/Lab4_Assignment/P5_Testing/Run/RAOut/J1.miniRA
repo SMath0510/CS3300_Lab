@@ -1,0 +1,6 @@
+MAIN [0] [0] [0]
+	MOVE v0 10
+	MOVE s0 v0
+	PRINT s0
+END
+// NOTSPILLED

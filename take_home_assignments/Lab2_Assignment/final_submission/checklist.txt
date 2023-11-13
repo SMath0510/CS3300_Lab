@@ -1,0 +1,50 @@
+Checklist for Assignment P2
+
+1) Have you tarred + gzipped the file as XXXXXXXX.tar.gz (your 8-digit roll number) or zipped it to XXXXXXXX.tgz?
+
+I have tarred + gzipped it to CS21B076.P2.tar.gz just like specified.
+
+2) Does your tar.gz / .tgz file expand (by using the command tar xvzf) to the base directory named XXXXXXXX (your 8-digit roll number), and which in turns contains all your files?
+
+Yep it does.
+
+
+3) Have you removed the a.out files and other generated files from your tar ball?
+
+Here all binaries are removed, we just have the .java files and syntaxtree with the visitor directory.
+
+4) Does the above created compile on the server?
+
+Yep it does.
+
+5) Does your generated P2 take input from Standard Input (for usage of redirection) ?
+
+Yes . works
+
+6) Does your generated P2 write output to Standard Output (for usage of redirection) ?
+
+Yes works.
+
+
+7) Have you removed all the debugging messages that your program may output?
+
+I hope so ... I'm pretty sure I have. All my tc's passed in the server.
+
+8) Is (some part of) the assignment plagiarized?
+
+Nope. Just high level discussion and references.
+
+9) Any comments about your evaluation strategy :
+
+Features incorporated:
+
+1) Trivial typechecking
+2) Inheritance of functions and variables from parent classes.
+3) Overriding is incorporated, overloading is not allowed.
+4) Symbol not found is returned when a certain class doesnt exist in the symbol table OR when a function does not exist in the global hashmap .
+5) assignment checking => the LHS can be  a base class and RHS can be a derived class
+6) In overriding , function return types can also have a parent child relationship(one way, ancestor class must have the superior return type)
+7) Check cycles is done
+8) Redefinition is strictly prohibited in the same scope
+
+
